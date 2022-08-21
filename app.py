@@ -24,6 +24,9 @@ def home():
 @app.route('/aboutusnew')
 def aboutusnew():
     return render_template('aboutusnew.html')
+@app.route('/minors')
+def minors():
+    return render_template('minors.html')
   
 @app.route('/predict',methods=['GET'])
 
